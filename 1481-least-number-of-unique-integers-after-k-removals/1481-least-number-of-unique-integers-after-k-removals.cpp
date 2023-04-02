@@ -11,11 +11,9 @@ public:
         int i;
         for(i=0;i<v.size();++i)
         {
-            if(v[i].first<=k){
-                k-=v[i].first;
-            }
+            if(v[i].first>k){break;}
             else{
-                break;
+                k-=v[i].first;
             }
         }
         return m.size()-i;
