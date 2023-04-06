@@ -12,7 +12,7 @@ class Solution {
     }
 public:
     int closedIsland(vector<vector<int>>& grid) {
-        vector<vector<int>> vis( grid.size() , vector<int> (grid[0].size(), 0));
+        // vector<vector<int>> vis( grid.size() , vector<int> (grid[0].size(), 0));
         for(int i=0;i<grid.size();i++){
             dfs(grid,i,0);
             dfs(grid,i,grid[0].size()-1);    
