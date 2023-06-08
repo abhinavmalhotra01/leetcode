@@ -78,7 +78,7 @@ Node *removeDuplicates(Node *head)
             //     cout<<temp->next->data<<endl;
             //     cout<<curr->data<<endl;
             // }
-            // delete temp->next;
+            delete temp->next;
             // cout<<
             temp->next = curr->next;
             // if(temp->data == 87){
