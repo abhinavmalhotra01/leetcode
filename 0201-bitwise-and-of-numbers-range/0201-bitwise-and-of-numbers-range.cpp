@@ -29,22 +29,22 @@ public:
         string sr=to_bin(right);
         // string sc=sl;
         // cout<<to_bin(c)<<" "<<to_bin(left)<<endl;
-        int l=0;
-        for(int i=0;i<32;i++){
-            if(sl[i]!='0'){
-                // sl[i-1]='1';
-                l=i;
-                break;
-            }
-        }
-        int r=0;
-        for(int i=0;i<32;i++){
-            if(sr[i]!='0'){
-                // sl[i-1]='1';
-                r=i;
-                break;
-            }
-        }
+        // int l=0;
+        // for(int i=0;i<32;i++){
+        //     if(sl[i]!='0'){
+        //         // sl[i-1]='1';
+        //         l=i;
+        //         break;
+        //     }
+        // }
+        // int r=0;
+        // for(int i=0;i<32;i++){
+        //     if(sr[i]!='0'){
+        //         // sl[i-1]='1';
+        //         r=i;
+        //         break;
+        //     }
+        // }
         // cout<<to_dec(sl)<<" "<<to_dec(sc)<<endl;
         // for(int i=)
         // cout<<to_dec(sc);
